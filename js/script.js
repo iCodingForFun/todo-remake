@@ -1,3 +1,5 @@
+
+
 class MakeTodoList {
     constructor(list) {
       this.todoList = list;
@@ -46,7 +48,7 @@ class MakeTodoList {
 
   let listEle = new MakeTodoList(list);
 
-  listEle.DummyData = ["Play FootBall", "Do Homework"]; // colocando métodos para ejemplos
+  listEle.DummyData = ["Jugar Beisbol", "Hacer Tareas"]; // colocando métodos para ejemplos
 
   console.log("current  ...........", listEle.getList); //   obteniendo método
 
